@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="UTF-8" />
+	<title th:text="${titulo}"></title>
+	<link rel="stylesheet" type="text/css" th:href="@{/css/style.css}">
+	</link>
+</head>
+
+<body>
+	<img th:src="@{/images/spring.png}" alt="Imagen de Spring para demo"></img>
+	<h1 class="color-rojo"> tendrá el texto que tu creas oportuno</h1>
+	<p class="color-azul">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+		Proin quis nulla posuere, sagittis nisl vitae, tempus neque.
+		Maecenas fermentum lectus varius, rhoncus massa et, tincidunt massa.
+		Donec rutrum consectetur magna. Donec lorem tortor, sollicitudin sed nibh a,
+		rutrum facilisis dui. Mauris molestie hendrerit lacus,
+		id accumsan neque rutrum vel.
+	</p>
+	<p><i th:text="${valor}"></i></p>
+
+	<h2>APLICACIONES</h2>
+	<ul>
+		<li>
+			<a th:href="@{/loto/menu} ">LOTO</a>
+		</li>
+		<li>
+			<a th:href="@{/libros/menu} ">LIBROS</a>
+		</li>
+		<li>
+			<a th:href="@{/imagenes/menu} ">IMÁGENES</a>
+		</li>
+	</ul>
+</body>
+
+</html>

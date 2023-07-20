@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generador de Lotto</title>
+</head>
+<body>
+    <h1>Combinación generada italiana:</h1>
+    <ul th:each = "numero: ${combination}">
+		<li th:text="${numero}"> </li>
+	</ul>
+    <a href="/loto/menu">Volver al menú de Lotto</a>
+</body>
+</html>

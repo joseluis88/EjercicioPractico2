@@ -1,0 +1,13 @@
+@charset "UTF-8";
+h1.color-rojo{
+	color: red;
+}
+p.color-azul{
+	color:blue;
+}
+img {
+	max-height:55px;
+}
+body{
+	background-color: rgb(119, 118, 123);
+}
